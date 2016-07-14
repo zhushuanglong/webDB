@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <script>
+    var db = new webDB();
+
+    //保存数据
+    db.setJson({
+        a: '1',
+        b: 1,
+        c: 1
+    });
+
+    //读取数据
+    console.log(db.getJson()); //{a: "1", b: 1, c: 1}
+
+    //清空数据
+    db.clear();
+    </script>
+</body>
+
+</html>

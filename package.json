@@ -1,0 +1,24 @@
+{
+  "name": "webdb.js",
+  "version": "0.0.1",
+  "description": "无依赖的localStorage以json存取，若浏览器不兼容，自动降级到cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nehcnah@github.com/nehcnah/webDB.git"
+  },
+  "keywords": [
+    "cookie",
+    "localStorage",
+    "json"
+  ],
+  "author": "nehcnah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehcnah/webDB/issues"
+  },
+  "homepage": "https://github.com/nehcnah/webDB#readme"
+}
