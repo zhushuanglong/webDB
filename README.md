@@ -8,6 +8,10 @@
 当然这是由localstorage、cookie自身特点所决定的
 
 ### 使用方法
+```
+npm i -S webdb.js
+```
+
 ```javascript
 var db = new webDB();
 

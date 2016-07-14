@@ -1,6 +1,6 @@
 {
   "name": "webdb.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "无依赖的localStorage以json存取，若浏览器不兼容，自动降级到cookie",
   "main": "index.js",
   "scripts": {
